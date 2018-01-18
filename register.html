@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/register.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="s_wrap">
+            <div class="s_loginBox">
+                <div class="s_reg_l">
+                    <form class="s_form" action="" method="post">
+                        <div class="s_reg">
+                            <span>用户名：</span>
+                            <input type="text" class="s_reg_username" id="s_login">
+                        </div>
+                        <div class="s_reg">
+                            <span>密码：</span>
+                            <input type="password" class="s_reg_username" id="s_password">
+                        </div>
+                        <div class="s_reg">
+                            <span>确认密码：</span>
+                            <input type="password" class="s_reg_username" id="s_psd">
+                        </div>
+                        <div class="s_reg s_reg1">
+                            <input type="text" class="s_reg_pin" id="s_pin">
+                            <button class="s_reg_btn"> 看不清，换一张</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="s_reg_r">
+                    <form action="s_form" action="" method="post">
+                        <div class="s_register">
+                            姓名：
+                            <input type="text" name="" id="xm" class="s_reg_name">
+                            <div id="xb" class="s_reg_xb">
+                                性别：
+                                <input name="sex" type="radio" value="男"/>男
+                                <input name="sex" type="radio" value="女" />女 
+                            </div>
+                            电话：
+                            <input type="tel" name="" id="tel" class="s_reg_name s_reg_tele"><br>
+                            工号：
+                            <input type="text" name="" id="gh" class="s_reg_name s_reg_gong"><br>
+                            部门：
+                                <select class="s_selbu">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select><br>
+                            学历：
+                                <select class="s_selbu">
+                                    <option>大专</option>
+                                    <option>大学</option>
+                                    <option>博士</option>
+                              </select><br>
+                            状态： 
+                                <select class="s_selbu">
+                                    <option>试用期</option>
+                                    <option disabled>大学</option>
+                                    <option disabled>博士</option>
+                              </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="s_reg_b">
+                    <button class="s_reg_zhuce">找回密码</button>
+                    <button class="s_reg_zhuce">用户注册</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</html>

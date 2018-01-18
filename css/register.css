@@ -1,0 +1,178 @@
+.s_wrap{
+    position:absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: #3283AC url(../images/login_bg.jpg) no-repeat center;
+}
+.s_loginBox{
+    position: absolute;
+    width: 617px;
+    height:57%;
+    background: url(../images/loginform_bg.png) no-repeat;
+    left: 50%;
+    top: 50%;
+    margin-left: -309px;
+    margin-top: -184px;
+    padding-top: 38px;
+}
+.s_reg_l{
+    width:50%;
+    height:82%;
+    position: absolute;
+    top:0;
+    border-right:1px solid #eee;
+    border-bottom:1px solid #eee;
+}
+.s_reg{
+    width:70%;
+    margin-left:15%;
+    margin-top:5%;
+}
+.s_reg1{
+    margin-top:6%;
+}
+.s-reg span{
+    display:block;
+
+}
+.s_reg_username{
+    width:100%;
+    height:30px;
+    font-size:12px;
+    border:1px solid #eee;
+    border-radius: 4px;
+    text-indent:6px;
+    margin-top:4px;
+}
+.s_reg_pin{
+    width:40%;
+    height:30px;
+    font-size:12px;
+    border:1px solid #eee;
+    border-radius: 4px;
+    text-indent:6px;
+}
+.s_reg_btn{
+    border:0;
+    background:rgba(255, 255, 255, 0.0);
+}
+.s_reg_r{
+    width:50%;
+    height:82%;
+    position:absolute;
+    right:0;
+    top:0;
+    border-bottom:1px solid #eee;
+}
+.s_register{
+    width:90%;
+    margin-left:10%;
+    margin-top:5%;
+}
+.s_reg_name{
+    width:60%;
+    height:26px;
+    font-size:12px;
+    border:1px solid #eee;
+    border-radius: 4px;
+    text-indent:6px;
+    margin-bottom:10px;
+    margin-top:4px; 
+}
+.s_reg_tele{
+    margin-top:10px;
+}
+.s_reg_gong{
+    margin-top:0px;
+}
+.s_selbu{
+    width:28%;
+    height:26px;
+    text-indent: 4px;
+    border-radius: 4px;
+    margin:5px 0;
+}
+.s_reg_b{
+    width:100%;
+    height:15%;
+    position:absolute;
+    top:85%;
+}
+.s_reg_zhuce {
+    background-color:#3bb3e0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    outline: none;
+    border:none;
+    position: relative;
+    /*left: 40%;*/
+    color:#fff;
+    padding:6px 10px;
+    padding-right:40px;
+    margin:0px 16%;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb(44,160,202)),
+            color-stop(1, rgb(62,184,229))
+    );
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.s_reg_zhuce:active {
+    top:3px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb(62,184,229)),
+            color-stop(1, rgb(44,160,202))
+    );
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+.s_reg_zhuce::before {
+    background-color:#2591b4;
+    background-image:url(../images/webwxgetmsgimg.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    content:"";
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:15px;
+    top:50%;
+    margin-top:-9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+    -moz-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+    -o-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+    box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+}
